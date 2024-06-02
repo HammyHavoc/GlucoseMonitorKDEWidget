@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="nightscoutInstance" type="String">
+      <default></default>
+      <label>Nightscout Instance</label>
+    </entry>
+    <entry name="accessToken" type="String">
+      <default></default>
+      <label>Access Token</label>
+    </entry>
+    <entry name="unit" type="Int">
+      <default>0</default>
+      <label>Unit</label>
+    </entry>
+    <entry name="logMessages" type="String">
+      <default></default>
+      <label>Log Messages</label>
+    </entry>
+    <entry name="mostRecentTimestamp" type="String">
+      <default></default>
+      <label>Most Recent Timestamp</label>
+    </entry>
+  </group>
+</kcfg>

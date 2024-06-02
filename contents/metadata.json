@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "hammyhavoc"
+            }
+        ],
+        "Name": "Blood Glucose",
+        "Id": "thot.observer.ram",
+        "Description": "Utility to display blood glucose from a Nightscout instance.",
+        "Category": "Utilities",
+        "Icon": "org.kde.ksysguard",
+        "EnabledByDefault": true,
+        "License": "GPL-3.0+",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "2.0",
+        "Website": "https://hammyhavoc.com"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
